@@ -77,6 +77,4 @@ def merge(left, right):
 
 - [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/books/introduction-algorithms)  
 - [Python Dokumentation](https://docs.python.org)  
-- [pytest Dokumentation](https://docs.pytest.org/)  
-- [ChatGpt o1](https://chatgpt.com/auth/login)
-- Bildquelle
+- [pytest Dokumentation](https://docs.pytest.org/)
