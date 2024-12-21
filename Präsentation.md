@@ -13,7 +13,7 @@ MergeSort ist ein **Sortieralgorithmus**, der auf dem Prinzip **Teile und Erober
   1. **Teilen (Divide):** Zerlege die Liste in zwei kleinere Listen, bis jede Teil-Liste nur noch ein Element hat.  
   2. **Erobern (Conquer):** Sortiere diese kleinen Listen (einzelne Elemente sind schon sortiert).  
   3. **Vereinen (Merge):** Füge die sortierten Teil-Listen wieder zusammen, dabei entsteht eine komplett sortierte Liste.
-![fotogroesse-powerpoint-titel.png](fotogroesse-powerpoint-titel.png)
+![w:400px](fotogroesse-powerpoint-titel.png)
 *[Quelle](ttps://www.npridik.de/scharfe-bilder-powerpoint/)*
 ---
 
@@ -26,7 +26,7 @@ MergeSort ist ein **Sortieralgorithmus**, der auf dem Prinzip **Teile und Erober
 - **Nachteile:**  
   - Braucht zusätzlichen Speicher für das Mergen  
   - Etwas komplexer als einfache Sortiermethoden wie Bubble Sort
-![mit_systemischem_vorgehen_souveraen_entscheiden_h.jpg](mit_systemischem_vorgehen_souveraen_entscheiden_h.jpg)
+![w:400px](mit_systemischem_vorgehen_souveraen_entscheiden_h.jpg)
 *[Quelle](https://www.projektmagazin.de/artikel/mit-systemischem-vorgehen-souveraen-entscheiden_1098373)*
 ---
 
@@ -44,7 +44,7 @@ Unsortiert: `[8, 3, 5, 4, 2]`
 
 ---
 
-## Code (Ausschnitt)
+## Flow Chart
 
 Wir haben den Code in **PyCharm** geschrieben und mit **Git** versioniert. Jede Änderung ist ein eigener Commit.
 
@@ -80,4 +80,3 @@ def merge(left, right):
 - [pytest Dokumentation](https://docs.pytest.org/)  
 - [ChatGpt o1](https://chatgpt.com/auth/login)
 - Bildquelle
-
