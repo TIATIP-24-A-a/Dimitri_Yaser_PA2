@@ -80,6 +80,9 @@ def merge(left, right):
 ```
 ---
 
+## Fazit
+MergeSort ist ein mächtiger Algorithmus, besonders für grosse Datenmengen. Während er zusätzlichen Speicher benötigt, überwiegen die Vorteile in den meisten Fällen. Wir haben durch dieses Projekt nicht nur den Algorithmus verstanden, sondern auch gelernt, wie wichtig Struktur und Teamarbeit bei der Entwicklung sind.
+
 ## Quellen
 
 - [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/books/introduction-algorithms)  
