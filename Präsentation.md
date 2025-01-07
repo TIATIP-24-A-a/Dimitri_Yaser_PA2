@@ -45,8 +45,15 @@ Unsortiert: `[8, 3, 5, 4, 2]`
 ---
 
 ## Flow Chart
-
-Wir haben den Code in **PyCharm** geschrieben und mit **Git** versioniert. Jede Änderung ist ein eigener Commit.
+```mermaid
+flowchart TD
+    Start --> Divide["Divide List"]
+    Divide --> RecursivelySort["Recursively Sort"]
+    RecursivelySort --> Merge["Merge Sorted Lists"]
+    Merge --> End
+```
+### Coding
+- Wir haben den Code in **PyCharm** geschrieben und mit **Git** versioniert. Jede Änderung ist ein eigener Commit.
 
 ```python
 def merge_sort(arr):
