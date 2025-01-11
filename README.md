@@ -1,4 +1,4 @@
-# Projektarbeit: MergeSort Yaser Dimitri
+# Projektarbeit: MergeSort Yaser
 
 ## Übersicht 
 Dieses File dient als Dokumentation unserer Arbeit.

@@ -1,19 +1,18 @@
 # Präsentation über MergeSort
 
-**Gruppe:** Yaser & Dimitri  
+**Präsentation von:** Yaser  
 **Thema:** Mergesort Algorithmus  
 **Dauer:** ca. 5 Minuten
 ![w:400px](Merge-Sort.png)
 *[Quelle](https://fullyunderstood.com/pseudocodes/merge-sort/)*
+
 ---
-
 ## Was ist MergeSort?
-
 MergeSort ist ein **Sortieralgorithmus**, der auf dem Prinzip **Teile und Erobere** (Divide and Conquer) basiert. 
   1. **Teilen (Divide):** Zerlege die Liste in zwei kleinere Listen, bis jede Teil-Liste nur noch ein Element hat.  
   2. **Erobern (Conquer):** Sortiere diese kleinen Listen (einzelne Elemente sind schon sortiert).  
   3. **Vereinen (Merge):** Füge die sortierten Teil-Listen wieder zusammen, dabei entsteht eine komplett sortierte Liste.
-![w:400px](fotogroesse-powerpoint-titel.png)
+![w:300px](fotogroesse-powerpoint-titel.png)
 *[Quelle](ttps://www.npridik.de/scharfe-bilder-powerpoint/)*
 ---
 
@@ -26,7 +25,7 @@ MergeSort ist ein **Sortieralgorithmus**, der auf dem Prinzip **Teile und Erober
 - **Nachteile:**  
   - Braucht zusätzlichen Speicher für das Mergen  
   - Etwas komplexer als einfache Sortiermethoden wie Bubble Sort
-![w:400px](mit_systemischem_vorgehen_souveraen_entscheiden_h.jpg)
+![w:350px](mit_systemischem_vorgehen_souveraen_entscheiden_h.jpg)
 *[Quelle](https://www.projektmagazin.de/artikel/mit-systemischem-vorgehen-souveraen-entscheiden_1098373)*
 ---
 
@@ -44,47 +43,38 @@ Unsortiert: `[8, 3, 5, 4, 2]`
 
 ---
 
-## Flow Chart
-```mermaid
-flowchart TD
-    Start --> Divide["Divide List"]
-    Divide --> RecursivelySort["Recursively Sort"]
-    RecursivelySort --> Merge["Merge Sorted Lists"]
-    Merge --> End
-```
 ### Coding
-- Wir haben den Code in **PyCharm** geschrieben und mit **Git** versioniert. Jede Änderung ist ein eigener Commit.
+- ich habe den Code in **PyCharm** geschrieben getestet und mit **Git** versioniert. Jede Änderung ist ein eigener Commit.
 
-```python
-def merge_sort(arr):
-    if len(arr) <= 1:
-        return arr
-    mid = len(arr) // 2
-    left = merge_sort(arr[:mid])
-    right = merge_sort(arr[mid:])
-    return merge(left, right)
+```Python
+import unittest
 
-def merge(left, right):
-    result = []
-    i, j = 0, 0
-    while i < len(left) and j < len(right):
-        if left[i] <= right[j]:
-            result.append(left[i])
-            i += 1
-        else:
-            result.append(right[j])
-            j += 1
-    result.extend(left[i:])
-    result.extend(right[j:])
-    return result
+from mergesort import mergesort
+
+
+class MyTestCase(unittest.TestCase):
+    def test_sorting(self):
+        a = [99, 88, 77, 33, 11]  # Arrange
+        result = mergesort(a)  # Act
+        self.assertEqual([11,33,77,88,99], result)  # Assert
 ```
 ---
 
 ## Fazit
-MergeSort ist ein mächtiger Algorithmus, besonders für grosse Datenmengen. Während er zusätzlichen Speicher benötigt, überwiegen die Vorteile in den meisten Fällen. Wir haben durch dieses Projekt nicht nur den Algorithmus verstanden, sondern auch gelernt, wie wichtig Struktur und Teamarbeit bei der Entwicklung sind.
+
+<span style="font-size: 14px;">MergeSort ist ein leistungsstarker Algorithmus, der besonders gut für grosse Datenmengen geeignet ist. Durch dieses Projekt habe ich gelernt, wie der Algorithmus funktioniert und warum das "Teile-und-Erobere"-Prinzip so effektiv ist. Außerdem hat es mir geholfen, meine Fähigkeit zur strukturierten und organisierten Arbeit zu verbessern.</span>
+
+---
 
 ## Quellen
-
 - [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/books/introduction-algorithms)  
 - [Python Dokumentation](https://docs.python.org)  
 - [pytest Dokumentation](https://docs.pytest.org/)
+---
+
+## Danke fürs Zuhören!
+
+### Falls ihr Fragen habt, beantworte ich diese gerne.
+
+![240_F_1152303874_kQKC0WtyYvJD3rMIBxa7rqiQlrbOQJ7b.jpg](240_F_1152303874_kQKC0WtyYvJD3rMIBxa7rqiQlrbOQJ7b.jpg)
+*[Quelle](https://stock.adobe.com/de/search?k=thumbs+up+emoji)*
