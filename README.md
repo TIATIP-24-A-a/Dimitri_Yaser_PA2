@@ -1,8 +1,8 @@
 # Projektarbeit: MergeSort Yaser
 
 ## Übersicht 
-Dieses File dient als Dokumentation unserer Arbeit.
-In diesem Projekt beschäftigen wir uns mit dem MergeSort-Algorithmus, einem effizienten, rekursiven Sortierverfahren. Ziel ist es, eine Liste von Elementen (typischerweise Zahlen) in aufsteigender Reihenfolge zu sortieren. MergeSort hat eine durchschnittliche und auch worst-case Laufzeit von O(n log n) und ist damit deutlich schneller als einfache Sortierverfahren wie der Insertion- oder Selection-Sort für große Datenmengen.
+Dieses File dient als Dokumentation meiner Arbeit.
+In diesem Projekt beschäftige ich mich mit dem MergeSort-Algorithmus, einem effizienten, rekursiven Sortierverfahren. Ziel ist es, eine Liste von Elementen (typischerweise Zahlen) in aufsteigender Reihenfolge zu sortieren. MergeSort hat eine durchschnittliche und auch worst-case Laufzeit von O(n log n) und ist damit deutlich schneller als einfache Sortierverfahren wie der Insertion- oder Selection-Sort für grosse Datenmengen.
 
 **Kernpunkte unseres Projekts:**
 - Implementierung des MergeSort-Algorithmus in Python
@@ -21,7 +21,7 @@ In diesem Projekt beschäftigen wir uns mit dem MergeSort-Algorithmus, einem eff
 MergeSort ist ein auf "Teile und Herrsche" (Divide and Conquer) basierender Sortieralgorithmus. Der Algorithmus teilt die Liste wiederholt in zwei Hälften, sortiert diese Hälften rekursiv und führt sie anschließend sortiert zusammen.
 
 ### Testing
-- Wir haben mit Hilfe mehrerer Tests unsern Algorithms auf seine Funktionalität geprüft.
+- Ich habe mit Hilfe mehrerer Tests unsern Algorithms auf seine Funktionalität geprüft.
 - Alle Tests wurden erfolgreich absolviert
 
 
