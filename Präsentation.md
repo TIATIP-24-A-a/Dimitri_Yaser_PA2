@@ -3,7 +3,7 @@
 **Präsentation von:** Yaser  
 **Thema:** Mergesort Algorithmus  
 **Dauer:** ca. 5 Minuten
-![w:400px](Merge-Sort.png)
+![w:600px](Merge-Sort.png)
 *[Quelle](https://fullyunderstood.com/pseudocodes/merge-sort/)*
 
 ---
@@ -28,10 +28,11 @@ Merge Sort ist ein **Sortieralgorithmus**, der auf dem Prinzip **Teile und Erobe
 ![w:350px](mit_systemischem_vorgehen_souveraen_entscheiden_h.jpg)
 *[Quelle](https://www.projektmagazin.de/artikel/mit-systemischem-vorgehen-souveraen-entscheiden_1098373)*
 ---
-
 #### Kurzes Beispiel
-![img_mergesort_long.png](img_mergesort_long.png)
-[Quelle](https://www.google.com/search?sca_esv=540dfeac42c719c1&rlz=1C5CHFA_enCH1128CH1128&sxsrf=ADLYWILoU2-T9WQ_pvxDLCGCmvXUFOn9SQ:1737052881559&q=Flowchart+Merge+Sort&udm=2&fbs=AEQNm0DlzhzfgcMT762IeLYOzuulDPgyJPevQP2Oosl6sssSrPn5pJs7adjRH8kSeoH51-gL7LD-8cmPkqOR0hRG0Psm2xtLnhE2EakQolUBt88UhVFfwYnjHiytWztiGD40QShZeb4D5FPzsaSiZsM79fFILRLCJzrfFPuFpDuc8r4n9nEc3_HApqyjaz36fz7wwaxMUkIk&sa=X&ved=2ahUKEwiIidif8vqKAxVInf0HHc_DHOYQtKgLegQIFBAB&biw=1512&bih=823&dpr=2#imgrc=AyGbr_mk_BGcOM&imgdii=Lwsi3WdSV1k83M)
+| ![Bild 1](MergesortDeutsch.png) | ![Bild 2](img_mergesort_long.png)    |
+|---------------------------------|--------------------------------------|
+*[Quelle](https://de.wikipedia.org/wiki/Mergesort)*
+
 ---
 
 ### Coding Test Unit Test
@@ -61,6 +62,7 @@ class MyTestCase(unittest.TestCase):
 - [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/books/introduction-algorithms)  
 - [Python Dokumentation](https://docs.python.org)  
 - [pytest Dokumentation](https://docs.pytest.org/)
+- [Wikipedia](https://de.wikipedia.org/wiki/Mergesort)
 ---
 
 ## Danke fürs Zuhören!
