@@ -61,7 +61,7 @@ MergeSort ist ein auf "Teile und Herrsche" (Divide and Conquer) basierender Sort
 - Markdown-Dokumentation aktualisiert: Algorithmus, Tests und Ergebnisse dokumentiert.
 - Diagramme zur Visualisierung des Algorithmus mit Mermaid erstellt.
 - Ergebnisse und Fortschritte auf GitHub hochgeladen. 
-### 07.01.2025
+### 16.01.2025
 - Weitere Tests durchgeführt: Algorithmus auf Sonderfälle wie leere Listen und Listen mit einem Element getestet.
 - Präsentation vorbereitet: Folien erstellt und Struktur festgelegt.
 - MergeSort-Dokumentation finalisiert und auf GitHub aktualisiert.

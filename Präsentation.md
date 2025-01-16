@@ -8,7 +8,7 @@
 
 ---
 ## Was ist MergeSort?
-MergeSort ist ein **Sortieralgorithmus**, der auf dem Prinzip **Teile und Erobere** (Divide and Conquer) basiert. 
+Merge Sort ist ein **Sortieralgorithmus**, der auf dem Prinzip **Teile und Erobere** (Divide and Conquer) basiert. 
   1. **Teilen (Divide):** Zerlege die Liste in zwei kleinere Listen, bis jede Teil-Liste nur noch ein Element hat.  
   2. **Erobern (Conquer):** Sortiere diese kleinen Listen (einzelne Elemente sind schon sortiert).  
   3. **Vereinen (Merge):** Füge die sortierten Teil-Listen wieder zusammen, dabei entsteht eine komplett sortierte Liste.
@@ -29,21 +29,12 @@ MergeSort ist ein **Sortieralgorithmus**, der auf dem Prinzip **Teile und Erober
 *[Quelle](https://www.projektmagazin.de/artikel/mit-systemischem-vorgehen-souveraen-entscheiden_1098373)*
 ---
 
-## Kurzes Beispiel
-
-Unsortiert: `[8, 3, 5, 4, 2]`
-
-1. Teile in `[8,3]` und `[5,4,2]`
-2. Sortiere `[8,3]` → `[3,8]`
-3. Sortiere `[5,4,2]`:
-   - Teile in `[5]` und `[4,2]`
-   - `[4,2]` wird zu `[2,4]`
-   - Merge `[5]` & `[2,4]` → `[2,4,5]`
-4. Merge `[3,8]` & `[2,4,5]` → `[2,3,4,5,8]` (fertig sortiert)
-
+#### Kurzes Beispiel
+![img_mergesort_long.png](img_mergesort_long.png)
+[Quelle](https://www.google.com/search?sca_esv=540dfeac42c719c1&rlz=1C5CHFA_enCH1128CH1128&sxsrf=ADLYWILoU2-T9WQ_pvxDLCGCmvXUFOn9SQ:1737052881559&q=Flowchart+Merge+Sort&udm=2&fbs=AEQNm0DlzhzfgcMT762IeLYOzuulDPgyJPevQP2Oosl6sssSrPn5pJs7adjRH8kSeoH51-gL7LD-8cmPkqOR0hRG0Psm2xtLnhE2EakQolUBt88UhVFfwYnjHiytWztiGD40QShZeb4D5FPzsaSiZsM79fFILRLCJzrfFPuFpDuc8r4n9nEc3_HApqyjaz36fz7wwaxMUkIk&sa=X&ved=2ahUKEwiIidif8vqKAxVInf0HHc_DHOYQtKgLegQIFBAB&biw=1512&bih=823&dpr=2#imgrc=AyGbr_mk_BGcOM&imgdii=Lwsi3WdSV1k83M)
 ---
 
-### Coding
+### Coding Test Unit Test
 - ich habe den Code in **PyCharm** geschrieben getestet und mit **Git** versioniert. Jede Änderung ist ein eigener Commit.
 
 ```Python
@@ -62,7 +53,7 @@ class MyTestCase(unittest.TestCase):
 
 ## Fazit
 
-<span style="font-size: 14px;">MergeSort ist ein leistungsstarker Algorithmus, der besonders gut für grosse Datenmengen geeignet ist. Durch dieses Projekt habe ich gelernt, wie der Algorithmus funktioniert und warum das "Teile-und-Erobere"-Prinzip so effektiv ist. Außerdem hat es mir geholfen, meine Fähigkeit zur strukturierten und organisierten Arbeit zu verbessern.</span>
+<span style="font-size: 14px;">Merge Sort ist ein leistungsstarker Algorithmus, der besonders gut für grosse Datenmengen geeignet ist. Durch dieses Projekt habe ich gelernt, wie der Algorithmus funktioniert und warum das "Teile-und-Erobere"-Prinzip so effektiv ist. Außerdem hat es mir geholfen, meine Fähigkeit zur strukturierten und organisierten Arbeit zu verbessern.</span>
 
 ---
 
