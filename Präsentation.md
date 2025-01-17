@@ -8,6 +8,23 @@
 
 ---
 
+### Was ist MergeSort?  
+
+MergeSort ist ein Sortieralgorithmus, der Daten in aufsteigende Reihenfolge bringt.  
+Er nutzt das Prinzip **„Teile und Erobere“**, indem er grosse Aufgaben in kleinere, einfacher lösbare Teile zerlegt und diese schrittweise sortiert.  
+
+---
+
+### Warum ist MergeSort wichtig?  
+- MergeSort ist einer der effizientesten Sortieralgorithmen mit einer garantierten Laufzeit von **O(n log n)**.  
+- Er ist **stabil**, wodurch gleiche Elemente in ihrer Reihenfolge bleiben.  
+- Er ist ideal für grosse Datenmengen geeignet.  
+
+### Einsatzmöglichkeiten:  
+MergeSort wird oft bei grossen Datenmengen genutzt, z. B. beim Sortieren von **Datenbanken** oder in der **Big-Data-Analyse**.
+
+---
+
 #### Erklärung von MergeSort
 Teilen (Divide): 
 Zerlege die Liste in zwei kleinere Listen, bis jede Teil-Liste nur noch ein Element enthält.

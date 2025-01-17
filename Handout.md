@@ -45,7 +45,7 @@ Unsortierte Liste: [8, 3, 5, 1]
 ---
 
 ## Fazit
-MergeSort ist ein leistungsstarker Algorithmus, der sich besonders für große Datenmengen eignet. Obwohl er zusätzlichen Speicher benötigt, ist er eine ausgezeichnete Wahl, wenn Stabilität und Effizienz wichtig sind.
+MergeSort ist ein leistungsstarker Algorithmus, der sich besonders für grosse Datenmengen eignet. Obwohl er zusätzlichen Speicher benötigt, ist er eine ausgezeichnete Wahl, wenn Stabilität und Effizienz wichtig sind.
 
 ---
 
