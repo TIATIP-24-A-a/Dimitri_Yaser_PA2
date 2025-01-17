@@ -66,9 +66,11 @@ class MyTestCase(unittest.TestCase):
 ```
 ---
 
-## Fazit
+### Fazit
 
-<span style="font-size: 14px;">Merge Sort ist ein leistungsstarker Algorithmus, der besonders gut für grosse Datenmengen geeignet ist. Durch dieses Projekt habe ich gelernt, wie der Algorithmus funktioniert und warum das "Teile-und-Erobere"-Prinzip so effektiv ist. Außerdem hat es mir geholfen, meine Fähigkeit zur strukturierten und organisierten Arbeit zu verbessern.</span>
+Merge Sort ist ein starker Algorithmus, besonders für grosse Daten.  
+Ich habe dabei gelernt, wie "Teile und Erobere" funktioniert.  
+Das Projekt hat mir gezeigt, wie wichtig klare und strukturierte Arbeit ist.
 
 ---
 
