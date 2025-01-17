@@ -25,27 +25,15 @@ MergeSort wird oft bei grossen Datenmengen genutzt, z. B. beim Sortieren von **D
 
 ---
 
-#### Erklärung von MergeSort
-Teilen (Divide): 
-Zerlege die Liste in zwei kleinere Listen, bis jede Teil-Liste nur noch ein Element enthält.
-
-Erobern (Conquer):
-Sortiere jede kleine Liste. Da sie nur ein Element enthält, ist sie bereits sortiert.
-
-Vereinen (Merge):
-Füge die sortierten Teil-Listen wieder zusammen, um eine komplett sortierte Liste zu erhalten.
-
-![w:250px](MergesortDeutsch.png)
-
----
-
 #### Kurzes Beispiel Bild 1
-![Unsortiert.png](Unsortiert.png)
+![w:800px](Unsortiert.png)
+*[Quelle](https://www.youtube.com/watch?v=3j0SWDX4AtU&t=299s&ab_channel=BroCode)*
 
 ---
 
 #### Kurzes Beispiel Bild 2
-![Sortiert.png](Sortiert.png)
+![w:800px](Sortiert.png)
+*[Quelle](https://www.youtube.com/watch?v=3j0SWDX4AtU&t=299s&ab_channel=BroCode)*
 
 ---
 
@@ -54,7 +42,8 @@ Füge die sortierten Teil-Listen wieder zusammen, um eine komplett sortierte Lis
 - Stabiler Algorithmus (gleiche Elemente bleiben in Reihenfolge)  
 - Gut für große Datenmengen geeignet
 
-![w:750px](Mergesort%20komplex.png)
+![w:700px](Mergesort%20komplex.png)
+*[Quelle](https://www.youtube.com/watch?v=3j0SWDX4AtU&t=299s&ab_channel=BroCode)*
 
 ---
 
@@ -63,6 +52,7 @@ Füge die sortierten Teil-Listen wieder zusammen, um eine komplett sortierte Lis
 - Etwas komplexer als einfache Sortiermethoden wie Bubble Sort
 
 ![w:750px](O%28n%29.png)
+*[Quelle](https://www.youtube.com/watch?v=3j0SWDX4AtU&t=299s&ab_channel=BroCode)*
 
 ---
 
@@ -85,7 +75,7 @@ class MyTestCase(unittest.TestCase):
 
 ### Fazit
 
-Merge Sort ist ein starker Algorithmus, besonders für grosse Daten.  
+MergeSort ist ein starker Algorithmus, besonders für grosse Daten.  
 Ich habe dabei gelernt, wie "Teile und Erobere" funktioniert.  
 Das Projekt hat mir gezeigt, wie wichtig klare und strukturierte Arbeit ist.
 
