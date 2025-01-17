@@ -7,31 +7,45 @@
 *[Quelle](https://fullyunderstood.com/pseudocodes/merge-sort/)*
 
 ---
-## Was ist MergeSort?
-Merge Sort ist ein **Sortieralgorithmus**, der auf dem Prinzip **Teile und Erobere** (Divide and Conquer) basiert. 
-  1. **Teilen (Divide):** Zerlege die Liste in zwei kleinere Listen, bis jede Teil-Liste nur noch ein Element hat.  
-  2. **Erobern (Conquer):** Sortiere diese kleinen Listen (einzelne Elemente sind schon sortiert).  
-  3. **Vereinen (Merge):** Füge die sortierten Teil-Listen wieder zusammen, dabei entsteht eine komplett sortierte Liste.
-![w:300px](fotogroesse-powerpoint-titel.png)
-*[Quelle](ttps://www.npridik.de/scharfe-bilder-powerpoint/)*
+
+#### Erklärung von MergeSort
+Teilen (Divide): 
+Zerlege die Liste in zwei kleinere Listen, bis jede Teil-Liste nur noch ein Element enthält.
+
+Erobern (Conquer):
+Sortiere jede kleine Liste. Da sie nur ein Element enthält, ist sie bereits sortiert.
+
+Vereinen (Merge):
+Füge die sortierten Teil-Listen wieder zusammen, um eine komplett sortierte Liste zu erhalten.
+
+![w:250px](MergesortDeutsch.png)
+
 ---
 
-## Warum dieses Vorgehen?
+#### Kurzes Beispiel Bild 1
+![Unsortiert.png](Unsortiert.png)
 
-- **Vorteile:**  
-  - Effiziente Laufzeit: O(n log n)  
-  - Stabiler Algorithmus (gleiche Elemente bleiben in Reihenfolge)  
-  - Gut für große Datenmengen geeignet
-- **Nachteile:**  
-  - Braucht zusätzlichen Speicher für das Mergen  
-  - Etwas komplexer als einfache Sortiermethoden wie Bubble Sort
-![w:350px](mit_systemischem_vorgehen_souveraen_entscheiden_h.jpg)
-*[Quelle](https://www.projektmagazin.de/artikel/mit-systemischem-vorgehen-souveraen-entscheiden_1098373)*
 ---
-#### Kurzes Beispiel
-| ![Bild 1](MergesortDeutsch.png) | ![Bild 2](img_mergesort_long.png)    |
-|---------------------------------|--------------------------------------|
-*[Quelle](https://de.wikipedia.org/wiki/Mergesort)*
+
+#### Kurzes Beispiel Bild 2
+![Sortiert.png](Sortiert.png)
+
+---
+
+##### Vorteile:
+- Effiziente Laufzeit: O(n log n)  
+- Stabiler Algorithmus (gleiche Elemente bleiben in Reihenfolge)  
+- Gut für große Datenmengen geeignet
+
+![w:750px](Mergesort%20komplex.png)
+
+---
+
+##### Nachteile:
+- Braucht zusätzlichen Speicher für das Mergen  
+- Etwas komplexer als einfache Sortiermethoden wie Bubble Sort
+
+![w:750px](O%28n%29.png)
 
 ---
 

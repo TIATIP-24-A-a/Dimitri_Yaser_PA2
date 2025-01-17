@@ -12,4 +12,4 @@ class MyTestCase(unittest.TestCase):
     def test_sorting_long(self):
         a = [99, 88, 77, 33, 11, 65, 22, 43]  # Arrange
         result = mergesort(a)  # Act
-        self.assertEqual([11,33,77,88,99], result)
+        self.assertEqual([11,22,33,43,65,77,88,99], result)
